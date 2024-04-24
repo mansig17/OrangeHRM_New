@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T01:56:33 IST" name="Default suite" finished-at="2024-04-25T01:57:39 IST" duration-ms="66030">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T01:56:33 IST" name="Default test" finished-at="2024-04-25T01:57:39 IST" duration-ms="66030">
+      <class name="OrangeHRMLive.ActionClasses.AddCandidateAction">
+        <test-method is-config="true" signature="InitialSetup()[pri:0, instance:OrangeHRMLive.ActionClasses.AddCandidateAction@636be97c]" started-at="2024-04-25T01:56:34 IST" name="InitialSetup" finished-at="2024-04-25T01:56:49 IST" duration-ms="14664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialSetup -->
+        <test-method signature="addCand(java.lang.String)[pri:0, instance:OrangeHRMLive.ActionClasses.AddCandidateAction@636be97c]" started-at="2024-04-25T01:56:49 IST" name="addCand" data-provider="TransactionalData" finished-at="2024-04-25T01:57:39 IST" duration-ms="50165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Assign Leave]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCand -->
+      </class> <!-- OrangeHRMLive.ActionClasses.AddCandidateAction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
